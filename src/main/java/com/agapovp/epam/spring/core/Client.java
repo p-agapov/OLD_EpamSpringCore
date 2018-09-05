@@ -1,15 +1,14 @@
 package com.agapovp.epam.spring.core;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-@Getter @Setter
+@Getter
+@Setter
+@NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Client {
+class Client {
     String id;
     String fullName;
 }
