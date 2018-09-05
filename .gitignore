@@ -104,3 +104,6 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Project files
+src/main/resources/log.txt
